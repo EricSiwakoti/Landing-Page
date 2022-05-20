@@ -1,2 +1,2 @@
 # Landing-Page
-Responsive landing page using HTML, CSS and JS
+A simple layout landing page example made on plain Html and Css which explores different components of css and flexbox. 
