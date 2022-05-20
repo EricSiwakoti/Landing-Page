@@ -1,50 +1,90 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.container{
+.container {
     max-width: 80vw;
     font-family: 'Ubuntu', sans-serif;
 }
 
-.navbar{
+.navbar {
     display: flex;
     height: 66px;
 }
 
-.navbar li{
+.navbar li {
     list-style: none;
     margin: 0 12px;
 }
 
-.topleft{
+.topleft {
     width: 50%;
 }
 
-.topright{
+.topright {
     width: 50%;
 }
 
-.section1{
-   max-height: 100vh;
+.section1 {
+    max-height: 100vh;
 }
 
-.logo{
+.logo {
     font-size: 1.5rem;
     cursor: pointer;
 }
 
-.dumbbell{
+.dumbbell {
     width: 280px;
 }
 
-.topright .coolgympic{
+.topright .coolgympic {
     width: 500px;
 }
 
-.section1 h1{
+.section1 h1 {
     font-size: 2rem;
+}
+
+.section2 h1 {
+    font-size: 2.5rem;
+}
+
+.section2 {
+    padding: 0 73px;
+}
+
+.section2 p {
+    padding: 0 8vw;
+    text-align: center;
+}
+
+.box {
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid rgb(103, 85, 216);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.box ul {
+    list-style: none;
+}
+
+.box ul li {
+    margin: 12px 2px;
+}
+
+.box h2 {
+    font-size: 2rem;
+    padding: 15px 0;
+}
+
+.highlighted {
+    font-size: 1.2rem;
+    font-weight: bold;
 }
